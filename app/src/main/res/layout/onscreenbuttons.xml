@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:splitMotionEvents="true">
+
+
+    <!-- DPAD placement  -->
+
+
+    <!-- Button placement  -->
+    android.gameengine.icadroids.input.OnScreenButton
+    android:id="@+id/start_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/start_button"
+    android:layout_marginTop="104dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" />
+
+    <!-- <android.gameengine.icadroids.input.OnScreenButton
+        android:id="@+id/exit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/exit_button"
+        android:layout_below="@+id/start_button"
+        android:layout_alignLeft="@+id/start_button"
+        android:layout_marginTop="24dp" /> -->
+
+</RelativeLayout>
